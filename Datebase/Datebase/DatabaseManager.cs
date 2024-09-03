@@ -110,6 +110,7 @@ namespace Datebase
         {
             string id = AddInfo(ProductName, "\\Products");
             Directory.CreateDirectory(Path + "\\Products\\" + id + "\\coppons");
+            Directory.CreateDirectory(Path + "\\Products\\" + id + "\\photos");
             using (FileStream fs = File.Create(Path + "\\Products\\" + id + "\\comments.txt")) { }
             List<string> info = new List<string>(File.ReadAllLines(Path + "\\Product\\" + id + "\\info.txt"));
             info.Append(OwnerID);
@@ -158,6 +159,68 @@ namespace Datebase
             File.WriteAllLines(Path + path + "\\counter.txt", s);
             return id;
         }
+        /// <summary>
+        /// لإضافة عنصر للسلة الخاصة بأي مستخدم
+        /// </summary>
+        /// <param name="userid">رقم المستخدم اللي حنضيف للسلة تبعو</param>
+        /// <param name="productid">رقم المنتج يلي عنضيفو للسلة</param>
+        public void AddToBasket(string userid, string productid)
+        {
+            List<string> basket = new List<string>(File.ReadAllLines(Path + "\\Costomers\\" + userid + "\\basket.txt"));
+            basket.Append(productid);
+            File.WriteAllLines(Path + "\\Costomers\\" + userid + "\\basket.txt", basket);
+        }
+        /// <summary>
+        /// هي الدالة بتحذف كلشي ألو علاقة بالمستخدم موجود علقاعدة (كلشي حرفيا)
+        /// لو ما كان موجود مجلد باسم رقم المستخدم المدخل ما راح يصير شي ساعتها
+        /// </summary>
+        /// <param name="userid">رقم المستخدم يلي بدك تحذفو</param>
+        public void RemoveUser(string userid)
+        {
+            if (Directory.Exists(Path + "\\Costomers\\" + userid))
+            {
+                string[] comments = File.ReadAllLines(Path + "\\Costomers\\" + userid + "\\comments.txt");
+                foreach (string comment in comments) 
+                    RemoveComment(comment);
+                Directory.Delete(Path + "\\Costomers\\" + userid, true);
+            }
+        }
+        /// <summary>
+        /// متل دالة حذف المستخدم هي الدالة بتحذف كلشي ألو علاقة بهاد التاجر بشكل نهائي
+        /// </summary>
+        /// <param name="sellerid"></param>
+        public void RemoveSeller(string sellerid)
+        {
+            if (Directory.Exists(Path + "\\Costomers\\" + sellerid))
+            {
+                string[] products = File.ReadAllLines(Path + "\\Seller\\" + sellerid + "\\products.txt");
+                foreach(string product in products)
+                    RemoveProduct(product);
+                Directory.Delete(Path + "\\Seller\\" + sellerid, true);
+            }
+        }
+        /// <summary>
+        /// بتشيل الكومينت بشكل نهائي من القاعدة ومن قمة التعليقات يلي موحوجة بالمنتج يلي هو فيه
+        /// </summary>
+        /// <param name="commentid">رقم الكومينت الموجود بالقاعدة</param>
+        public void RemoveComment(string commentid)
+        {
+            if (File.Exists(Path + "\\Comments\\" + commentid + ".txt"))
+            {
+                string[] s = File.ReadAllLines(Path + "\\Comments\\" + commentid + ".txt");
+                List<string> list = new List<string>(File.ReadAllLines(Path + "\\Products\\" + s[2] + "\\comments.txt"));
+                list.Remove(commentid);
+                File.WriteAllLines(Path + "\\Products\\" + s[2] + "\\comments.txt", list);
+                list = new List<string>(File.ReadAllLines(Path));
+            }
+        }
+        /// <summary>
+        /// بتشيل المنتج هو وكلشي متعلق فيه (ما عدا التاجر طبعا) برا القاعدة نهائيا
+        /// </summary>
+        /// <param name="productid">رقم المنتج بالقاعدة</param>
+        public void RemoveProduct(string productid)
+        {
 
+        }
     }
 }
