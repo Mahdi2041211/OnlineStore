@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Datebase
+namespace Database
 {
     public class Database
     {

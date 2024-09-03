@@ -9,3 +9,15 @@ A:\microsoft visual studio 2022\Projects\Datebase\Datebase\obj\Debug\net8.0\Date
 A:\microsoft visual studio 2022\Projects\Datebase\Datebase\obj\Debug\net8.0\refint\Datebase.dll
 A:\microsoft visual studio 2022\Projects\Datebase\Datebase\obj\Debug\net8.0\Datebase.pdb
 A:\microsoft visual studio 2022\Projects\Datebase\Datebase\obj\Debug\net8.0\ref\Datebase.dll
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\Datebase.GeneratedMSBuildEditorConfig.editorconfig
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\Datebase.AssemblyInfoInputs.cache
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\Datebase.AssemblyInfo.cs
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\Datebase.csproj.CoreCompileInputs.cache
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\Datebase.sourcelink.json
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\Datebase.dll
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\refint\Datebase.dll
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\Datebase.pdb
+A:\Git Hub\OnlineStore\Datebase\Datebase\bin\Debug\net8.0\Datebase.deps.json
+A:\Git Hub\OnlineStore\Datebase\Datebase\bin\Debug\net8.0\Datebase.dll
+A:\Git Hub\OnlineStore\Datebase\Datebase\bin\Debug\net8.0\Datebase.pdb
+A:\Git Hub\OnlineStore\Datebase\Datebase\obj\Debug\net8.0\ref\Datebase.dll

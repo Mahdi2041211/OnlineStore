@@ -4,13 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Datebase
+namespace Database
 {
-    internal class Product : Products_Comments
+    internal class Product : Database
     {
         /// <summary>
         /// مسارات الصور اللي لهاد المنتج.
         /// </summary>
-        public List<string> Photos {  get; set; }
+        public List<string> Photos { get; set; } = new List<string>();
+        /// <summary>
+        /// التعليقات على المنتج
+        /// </summary>
+        public List<Comment> Comments { get; set; } = new List<Comment>();
+        /// <summary>
+        /// التاجر صاحب المنتج
+        /// </summary>
+        public Seller Owner { get; set; } = new Seller();
     }
 }

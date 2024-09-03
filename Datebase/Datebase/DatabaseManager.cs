@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Datebase
+namespace Database
 {
     /// <summary>
     /// all methods that you will need to manage our seak database is here, creat a database is a static method and all the other methods are working with an instans of thes class.
@@ -16,9 +16,8 @@ namespace Datebase
         /// the database you are managing.
         /// </summary>
         /// 
-        public string Path { get; set; }
-        public DatabaseManager(string name) { Path = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.Parent.FullName + "\\" + name; }
-        public DatabaseManager(string name, string path) : this(name) { Path = path; }
+        string Path;
+        
         static void Creatdirs(string path, string name)
         {
             string Database = path + "\\" + name;
@@ -249,6 +248,43 @@ namespace Datebase
             File.WriteAllLines(Path + "\\Costomers\\" + userid + "\\basket.txt", basket);
         }
 
-        
+        public Costomer GetCostomer(string costomerid)
+        {
+            Costomer user = new Costomer();
+            user.ID = costomerid;
+            List<string> list = new List<string>(File.ReadAllLines(Path + "\\Costomers\\" + costomerid + "info.txt"));
+            user.Name = list[0];
+            list = new List<string>(File.ReadAllLines(Path + "\\Costomers\\" + costomerid + "\\comments.txt"));
+            foreach (string comment in list)
+                user.Comments.Append(GetComment(comment));
+            list = new List<string>(File.ReadAllLines(Path + "\\Costomers\\" + costomerid + "\\basket.txt"));
+            foreach (string product in list)
+                user.Basket.Append(GetProduct(product));
+            return user;
+        }
+        public Product GetProduct(string productid)
+        {
+            List<string> list = new List<string>(File.ReadAllLines(Path + "\\Products\\" + productid + "\\info.txt"));
+            Product product = new Product();
+            product.ID = productid;
+            product.Name = list[0];
+            product.Owner.ID = list[2];
+            product.Photos = new List<string>(Directory.GetFiles(Path + "\\Products\\" + productid + "\\photos"));
+            list = new List<string>(File.ReadAllLines(Path + "\\Prosucts\\" + product + "\\comments.txt"));
+            foreach(string comment in list)
+                product.Comments.Append(GetComment(comment));
+            return product;
+        }
+        public Comment GetComment(string commentid)
+        {
+            List<string> list = new List<string>(File.ReadAllLines(Path + "\\Comments\\" + commentid + ".txt"));
+            Comment comment = new Comment();
+            comment.ID = commentid;
+            comment.Owner.ID = list[0];
+            comment.Product.ID = list[2];
+            comment.Evaluation = list[3];
+            comment.CommentTxt = list[4];
+            return comment;
+        }
     }
 }

@@ -5,10 +5,10 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Datebase
+namespace Database
 {
     internal abstract class User : Database
-    { 
+    {
         /// <summary>
         /// مسار الصورة الشخصية للمستخدم
         /// </summary>
