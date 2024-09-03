@@ -248,5 +248,7 @@ namespace Datebase
             basket.Remove(productid);
             File.WriteAllLines(Path + "\\Costomers\\" + userid + "\\basket.txt", basket);
         }
+
+        
     }
 }

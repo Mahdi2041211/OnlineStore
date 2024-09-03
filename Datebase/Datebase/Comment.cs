@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Datebase
 {
-    internal class Product : Products_Comments
+    internal class Comment : Products_Comments
     {
         /// <summary>
-        /// مسارات الصور اللي لهاد المنتج.
+        /// المنتج يلي هاد التعليق موجود عليه
         /// </summary>
-        public List<string> Photos {  get; set; }
+        public Product Product { get; set; }
     }
 }

@@ -8,9 +8,13 @@ namespace Datebase
 {
     internal class Costomer : User
     {
-        public Costomer(string name, string id) : base(name, id)
-        {
-            Path += "\\Costomers";
-        }
+        /// <summary>
+        /// التعليقات يلي علقها هاد المستخدم
+        /// </summary>
+        public List<Comment> Comments { get; set; }
+        /// <summary>
+        /// سلة المشتريات يلي بدو المستخدم يشتريها
+        /// </summary>
+        public List<Product> Basket {  get; set; } 
     }
 }

@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace Datebase
 {
     internal abstract class User : Database
-    {
-        public User(string name, string id) : base(name, id)
-        {
-            
-        }
+    { 
+        /// <summary>
+        /// مسار الصورة الشخصية للمستخدم
+        /// </summary>
+        string SelfiePath { get; set; }
     }
 }

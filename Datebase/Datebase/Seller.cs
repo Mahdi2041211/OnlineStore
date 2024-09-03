@@ -8,9 +8,9 @@ namespace Datebase
 {
     internal class Seller : User
     {
-        public Seller(string name, string id) : base(name, id)
-        {
-            Path += "\\Seller";
-        }
+        /// <summary>
+        /// المنتجات يلي عند هاد البياع
+        /// </summary>
+        public List<Product> Products { get; set; }
     }
 }
