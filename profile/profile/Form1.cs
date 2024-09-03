@@ -14,7 +14,6 @@ namespace profile
     public partial class Form1 : Form
     {
         public Image[] images;
-        public Image[] dark;
         public Image[] Default;
         public Form1()
         {
@@ -34,11 +33,12 @@ namespace profile
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            timer1.Start();
             if (language.Checked)
             {
                 Favorite.Text = "المفضلة";
                 Money.Text = "الرصيد";
-                Buttons.Text = "الطلبات";
+                Orders.Text = "الطلبات";
                 Notifications.Text = "الإشعارات";
                 Titles.Text = "العناوين";
                 Payments.Text = "الدفع";
@@ -57,7 +57,7 @@ namespace profile
             {
                 Favorite.Text = "Favorite";
                 Money.Text = "Money";
-                Buttons.Text = "Orders";
+                Orders.Text = "Orders";
                 Notifications.Text = "Notifications";
                 Titles.Text = "Titles";
                 Payments.Text = "Payments";
@@ -113,18 +113,55 @@ namespace profile
 
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
         {
-            dark = new Image[]
-            {
-                    Image.FromFile(@"C:\Users\DR.tech\source\repos\profile\profile\Resources\LightMode.png"),
-                    Image.FromFile(@"C:\Users\DR.tech\source\repos\profile\profile\Resources\DarkMode.png")
-            };
             if (DarkMode.Checked)
             {
-                BackgroundImage = dark[1];
+                BackColor = Color.Black;
+                name.ForeColor = Color.White;
+                settings.ForeColor = Color.White;
+                account.ForeColor = Color.White;
+                language.ForeColor = Color.White;
+                DarkMode.ForeColor = Color.White;
+                Favorite.ForeColor = Color.White;
+                Favorite.BackColor = Color.Black;
+                Orders.ForeColor = Color.White;
+                Orders.BackColor = Color.Black;
+                Money.ForeColor = Color.White;
+                Money.BackColor = Color.Black;
+                Notifications.ForeColor = Color.White;
+                Notifications.BackColor = Color.Black;
+                Titles.ForeColor = Color.White;
+                Titles.BackColor = Color.Black;
+                Payments.ForeColor = Color.White;
+                Payments.BackColor = Color.Black;
+                barcode.ForeColor = Color.White;
+                barcode.BackColor = Color.Black;
+                proves.ForeColor = Color.White;
+                proves.BackColor = Color.Black;
             }
             else
             {
-                BackgroundImage = dark[0];
+                BackColor = Color.White;
+                name.ForeColor = Color.Black;
+                settings.ForeColor = Color.Black;
+                account.ForeColor = Color.Black;
+                language.ForeColor = Color.Black;
+                DarkMode.ForeColor = Color.Black;
+                Favorite.ForeColor = Color.Black;
+                Favorite.BackColor= Color.White;
+                Orders.ForeColor = Color.Black;
+                Orders.BackColor= Color.White;
+                Money.ForeColor = Color.Black;
+                Money.BackColor = Color.White;
+                Notifications.ForeColor = Color.Black;
+                Notifications.BackColor = Color.White;
+                Titles.ForeColor = Color.Black;
+                Titles.BackColor= Color.White;
+                Payments.ForeColor = Color.Black;
+                Payments.BackColor = Color.White;
+                barcode.ForeColor= Color.Black;
+                barcode.BackColor= Color.White;
+                proves.ForeColor = Color.Black;
+                proves.BackColor= Color.White;
             }
         }
         ///C:\Users\DR.tech\source\repos\profile\profile\Resources\LightMode.png
@@ -234,6 +271,11 @@ namespace profile
                     }
                 }
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+          
         }
     }
 }

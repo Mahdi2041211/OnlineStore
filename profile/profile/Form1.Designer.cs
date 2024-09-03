@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.name = new System.Windows.Forms.Label();
             this.language = new System.Windows.Forms.CheckBox();
-            this.Buttons = new System.Windows.Forms.Button();
+            this.Orders = new System.Windows.Forms.Button();
             this.Money = new System.Windows.Forms.Button();
             this.Favorite = new System.Windows.Forms.Button();
             this.account = new System.Windows.Forms.Label();
@@ -51,6 +52,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -86,16 +88,19 @@
             this.language.UseVisualStyleBackColor = false;
             this.language.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-            // Buttons
+            // Orders
             // 
-            this.Buttons.BackColor = System.Drawing.Color.Transparent;
-            this.Buttons.Location = new System.Drawing.Point(328, 150);
-            this.Buttons.Name = "Buttons";
-            this.Buttons.Size = new System.Drawing.Size(140, 55);
-            this.Buttons.TabIndex = 13;
-            this.Buttons.Text = "Orders";
-            this.Buttons.UseVisualStyleBackColor = false;
-            this.Buttons.Click += new System.EventHandler(this.Orders_Click);
+            this.Orders.BackColor = System.Drawing.Color.Transparent;
+            this.Orders.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.Orders.FlatAppearance.BorderSize = 0;
+            this.Orders.ForeColor = System.Drawing.Color.Black;
+            this.Orders.Location = new System.Drawing.Point(328, 150);
+            this.Orders.Name = "Orders";
+            this.Orders.Size = new System.Drawing.Size(140, 55);
+            this.Orders.TabIndex = 13;
+            this.Orders.Text = "Orders";
+            this.Orders.UseVisualStyleBackColor = false;
+            this.Orders.Click += new System.EventHandler(this.Orders_Click);
             // 
             // Money
             // 
@@ -111,6 +116,8 @@
             // Favorite
             // 
             this.Favorite.BackColor = System.Drawing.Color.Transparent;
+            this.Favorite.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Favorite.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Favorite.Location = new System.Drawing.Point(11, 150);
             this.Favorite.Name = "Favorite";
             this.Favorite.Size = new System.Drawing.Size(139, 55);
@@ -139,7 +146,7 @@
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(537, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(537, 26);
             this.menuStrip1.TabIndex = 20;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -156,7 +163,6 @@
             // 
             // toolStripTextBox1
             // 
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Overflow = System.Windows.Forms.ToolStripItemOverflow.Always;
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 27);
@@ -294,7 +300,7 @@
             this.pictureBox2.BackgroundImage = global::profile.Properties.Resources.orders;
             this.pictureBox2.Location = new System.Drawing.Point(474, 150);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 55);
+            this.pictureBox2.Size = new System.Drawing.Size(51, 50);
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
@@ -322,6 +328,11 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
@@ -342,7 +353,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.Money);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.Buttons);
+            this.Controls.Add(this.Orders);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.language);
             this.Controls.Add(this.name);
@@ -372,7 +383,7 @@
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.CheckBox language;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button Buttons;
+        private System.Windows.Forms.Button Orders;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button Money;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -391,6 +402,7 @@
         private System.Windows.Forms.Label settings;
         private System.Windows.Forms.CheckBox DarkMode;
         private System.Windows.Forms.ToolStripMenuItem removePictureToolStripMenuItem;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
