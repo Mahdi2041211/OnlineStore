@@ -107,8 +107,6 @@ namespace profile
 
         private void Favorite_Click(object sender, EventArgs e)
         {
-            fav favorite = new fav();
-            favorite.Show();
         }
 
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
@@ -211,20 +209,14 @@ namespace profile
 
         private void Notifications_Click(object sender, EventArgs e)
         {
-            notifications note = new notifications();
-            note.Show();
         }
 
         private void Orders_Click(object sender, EventArgs e)
         {
-            orders orders = new orders();
-            orders.Show();
         }
 
         private void Money_Click(object sender, EventArgs e)
         {
-            money money = new money();
-            money.Show();
         }
 
         private void toolStripTextBox1_Enter(object sender, EventArgs e)

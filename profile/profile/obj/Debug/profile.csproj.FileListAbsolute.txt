@@ -1,14 +1,2 @@
-C:\Users\DR.tech\source\repos\profile\profile\bin\Debug\profile.exe.config
-C:\Users\DR.tech\source\repos\profile\profile\bin\Debug\profile.exe
-C:\Users\DR.tech\source\repos\profile\profile\bin\Debug\profile.pdb
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.csproj.AssemblyReference.cache
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.Form1.resources
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.Properties.Resources.resources
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.csproj.GenerateResource.cache
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.csproj.CoreCompileInputs.cache
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.exe
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.pdb
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.fav.resources
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.orders.resources
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.money.resources
-C:\Users\DR.tech\source\repos\profile\profile\obj\Debug\profile.notifications.resources
+C:\Computer\project\OnlineStore\profile\profile\obj\Debug\profile.exe
+C:\Computer\project\OnlineStore\profile\profile\obj\Debug\profile.pdb
