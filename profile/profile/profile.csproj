@@ -159,6 +159,8 @@
     <Content Include="Resources\BackGround.png" />
     <Content Include="Resources\BackGround1.png" />
     <Content Include="Resources\DarkMode.png" />
+    <None Include="Resources\default photo.jpg" />
+    <None Include="Resources\default photo.png" />
     <Content Include="Resources\facehappy2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

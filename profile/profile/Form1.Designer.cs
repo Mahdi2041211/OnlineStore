@@ -42,6 +42,7 @@
             this.Notifications = new System.Windows.Forms.Button();
             this.settings = new System.Windows.Forms.Label();
             this.DarkMode = new System.Windows.Forms.CheckBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.proves = new System.Windows.Forms.Button();
             this.barcode = new System.Windows.Forms.Button();
             this.Payments = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -163,6 +163,7 @@
             // 
             // toolStripTextBox1
             // 
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Overflow = System.Windows.Forms.ToolStripItemOverflow.Always;
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 27);
@@ -211,6 +212,11 @@
             this.DarkMode.Text = "Dark Mode";
             this.DarkMode.UseVisualStyleBackColor = false;
             this.DarkMode.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // proves
             // 
@@ -316,7 +322,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::profile.Properties.Resources.backgrounnd;
+            this.pictureBox1.BackgroundImage = global::profile.Properties.Resources.default_photo1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Location = new System.Drawing.Point(227, 31);
@@ -327,11 +333,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // timer1
-            // 
-            this.timer1.Interval = 10;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
