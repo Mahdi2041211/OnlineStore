@@ -211,16 +211,42 @@ namespace Datebase
                 List<string> list = new List<string>(File.ReadAllLines(Path + "\\Products\\" + s[2] + "\\comments.txt"));
                 list.Remove(commentid);
                 File.WriteAllLines(Path + "\\Products\\" + s[2] + "\\comments.txt", list);
-                list = new List<string>(File.ReadAllLines(Path));
+                list = new List<string>(File.ReadAllLines(Path + "\\Costomers\\" + s[0] + "\\comments.txt"));
+                list.Remove(commentid);
+                File.WriteAllLines(Path + "\\Costomers\\" + s[0] + "\\comments.txt", list);
+                File.Delete(Path + "\\Comments\\" + commentid + ".txt");
             }
         }
         /// <summary>
         /// بتشيل المنتج هو وكلشي متعلق فيه (ما عدا التاجر طبعا) برا القاعدة نهائيا
+        /// ما حينشال رقم المنتج من سلة واحد كم الزباين يلي ضايفينو لسلهم بس بنفس الوقت ما عاد يلاقي هاد المنتج بالقاعدة عندو.
         /// </summary>
         /// <param name="productid">رقم المنتج بالقاعدة</param>
         public void RemoveProduct(string productid)
         {
-
+            if (Directory.Exists(Path + "\\Products\\" + productid))
+            {
+                List<string> list = new List<string>(File.ReadAllLines(Path + "\\Products\\" + productid + "\\info.txt"));
+                string owner = list[2];
+                list = new List<string>(File.ReadAllLines(Path + "\\Seller\\" + owner + "\\products.txt"));
+                list.Remove(productid);
+                File.WriteAllLines(Path + "\\Seller\\" + owner + "\\products.txt", list);
+                list = new List<string>(File.ReadAllLines(Path + "\\Products\\" + productid + "\\comments.txt"));
+                foreach (string s in list)
+                    RemoveComment(s);
+                Directory.Delete(Path + "\\Products\\" + productid);
+            }
+        }
+        /// <summary>
+        /// هي الدالة من شان هذف المنتج من قائمة السلة 
+        /// </summary>
+        /// <param name="userid">رقم المستخدم</param>
+        /// <param name="productid">رقم المنتج المراد حذفو</param>
+        public void RemoveFromBasket(string userid, string productid)
+        {
+            List<string> basket = new List<string>(File.ReadAllLines(Path + "\\Costomers\\" + userid + "\\basket.txt"));
+            basket.Remove(productid);
+            File.WriteAllLines(Path + "\\Costomers\\" + userid + "\\basket.txt", basket);
         }
     }
 }
