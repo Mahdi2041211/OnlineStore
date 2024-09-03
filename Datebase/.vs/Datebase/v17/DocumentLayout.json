@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Datebase\\DatabaseManager.cs",
               "ToolTip": "A:\\Git Hub\\OnlineStore\\Datebase\\Datebase\\DatabaseManager.cs",
               "RelativeToolTip": "Datebase\\DatabaseManager.cs",
-              "ViewState": "AgIAAEgAAACAZGZmZmYgwGgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAADwv6MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T06:28:35.992Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Datebase\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:45:15.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T15:45:15.565Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Datebase\\Costomer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:39:59.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T15:39:59.54Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "Datebase\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:12:39.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T15:12:39.909Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "Datebase\\Database.cs",
               "ViewState": "AgIAAAEAAACUMjMzMzMrwBIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:08:13.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T15:08:13.521Z"
             }
           ]
         }

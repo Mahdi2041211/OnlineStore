@@ -28,7 +28,7 @@ namespace Datebase
                 Directory.CreateDirectory(Database + dirs[i] + Console.ReadLine());
                 if (i > 0)
                 {
-                    using (FileStream fs = File.Create(Database + dirs[i] + @"\counter.txt")) 
+                    using (FileStream fs = File.Create(Database + dirs[i] + @"\counter.txt"))
                     {
                         using (StreamWriter streamWriter = new StreamWriter(Database + dirs[i] + @"\counter.txt"))
                         { streamWriter.WriteLine("0"); }
@@ -75,33 +75,89 @@ namespace Datebase
             }
             File.Copy(sourceFIlePath, path + last);
         }
+
         /// <summary>
-        /// الدالة المستخدمة لإضافة مستخدم للقاعدة.
+        /// الدالة المستخدمة لإضافة مستخدم عادي للقاعدة.
         /// بالنسبة للملف النصي للمستخدم وللتاجر زللمنتج راح يكون ترتيب السطور هو أنو أول سطر للاسم والتاني للعنوان.
         /// </summary>
-        /// <param name="username">اسم المستخدم</param>
-        /// <param name="type">نوع المستخدم إذا كان مستخدم عادي أو تاجر
-        /// للسنتخدم العادي بتكتب : Costomers
-        /// للتاجر بتكتب Seller
-        /// </param>
-        public void AddUserInfo(string username, string type)
+        /// <param name="user">اسم المستخدم</param>
+        public void AddCostomer(string user)
         {
-            string id = File.ReadLines(Path + "\\" + type + "\\counter.txt").First();
-            Directory.CreateDirectory(Path + "\\" + type + "\\" + id);
-            using (FileStream fs = File.Create(Path + "\\" + type + "\\" + id + "info.txt")) { }
-            using (FileStream fs = File.Create(Path + "\\" + type + "\\" + id + "comments.txt")) { }
-            using (StreamWriter streamWriter = new StreamWriter(Path + "\\" + type + "\\" + id + "info.txt"))
+            string id = AddInfo(user, "\\Costomers");
+            using (FileStream fs = File.Create(Path + "\\Costomers\\" + id + "\\comments.txt")) { }
+            using (FileStream fs = File.Create(Path + "\\Costomers\\" + id + "\\basket.txt")) { }
+        }
+        /// <summary>
+        /// الدالة المستخدمة لإضافة تاجر على القاعدة.
+        /// السطر الأول من ملف الinfo للاسم والتاني للعنوان
+        /// </summary>
+        /// <param name="name">اسم التاجر</param>
+        public void AddSeller(string name)
+        {
+            string id = AddInfo(name, "\\Seller");
+            using (FileStream fs = File.Create(Path + "\\Seller\\" + id + "\\products.txt")) { }
+        }
+        /// <summary>
+        /// هي الدالة من شان إضافة منتج على قاعدة البيانات الخاصة فينا من شان تقدر تعرضو على البرنانج.
+        /// بالنسبة لملف info حيكون مقسم علشكل التالي:
+        /// أول سطر من اسم المنتج
+        /// تاني سطر العنوان تبعو
+        /// 
+        /// </summary>
+        /// <param name="ProductName">اسم المنتَج</param>
+        /// <param name="OwnerID">اسم التاجر المالك للمنتج (أكيد مافي منتج حينضاف بدون ما يكون ألو صاحب)</param>
+        public void AddProduct(string ProductName, string OwnerID)
+        {
+            string id = AddInfo(ProductName, "\\Products");
+            Directory.CreateDirectory(Path + "\\Products\\" + id + "\\coppons");
+            using (FileStream fs = File.Create(Path + "\\Products\\" + id + "\\comments.txt")) { }
+            List<string> info = new List<string>(File.ReadAllLines(Path + "\\Product\\" + id + "\\info.txt"));
+            info.Append(OwnerID);
+            File.WriteAllLines(Path + "\\Product\\" + id + "\\info.txt", info);
+            List<string> OwnerProducts = new List<string>(File.ReadAllLines(Path + "\\Seller\\" + info[1] + "\\products.txt"));
+            OwnerProducts.Append(id);
+            File.WriteAllLines(Path + "\\Seller\\" + info[1] + "\\products.txt", OwnerProducts);
+        }
+        /// <summary>
+        /// هي الدالة بتضيف تعليق على مجلد التعليقات الموجود بالقاعدة، كل تعليق بكون عبارة عن مستند نصي فيه كل التعاصيل عن هاد التعليق.
+        /// ترتيب السطور بالملف هو كالتالي:
+        /// الاول فيه رقم المستخدم يلي علق
+        /// التالني فيه رقم التعليق على القاعدة
+        /// الثالث فيه رقم المنتج بالقاعدة
+        /// الرابع فيه التقييم
+        /// الخامس والأخير فيه التعليق نفسو.
+        /// </summary>
+        /// <param name="user">رقم المستخدم يلي علق</param>
+        /// <param name="product">رقم المنتج يلي تك التعليق عليه</param>
+        /// <param name="comment">نص التعليق نفسو</param>
+        /// <param name="evaluation">التقييم يلي بيبعتو المستخدم مع تعليقو</param>
+        public void AddComment(string user, string product, string evaluation, string comment)
+        {
+            string id = File.ReadLines(Path + "\\Comments\\counter.txt").First();
+            using (FileStream fs = File.Create(Path + "\\Comments\\" + id + ".txt")) { }
+            List<string> info = new List<string> { user, id, product, evaluation, comment };
+            File.WriteAllLines(Path + "\\Comments\\" + id + ".txt", info);
+            info = new List<string>(File.ReadAllLines(Path + "\\Costomers\\" + user + "\\comments.txt"));
+            info.Append(id);
+            File.WriteAllLines(Path + "\\Costomers\\" + user + "\\comments.txt", info);
+            info = new List<string>(File.ReadAllLines(Path + "\\Products\\" + product + "\\comments.txt"));
+            info.Append(id);
+            File.WriteAllLines(Path + "\\Products\\" + product + "\\comments.txt", info);
+        }
+        string AddInfo(string name, string path)
+        {
+            string id = File.ReadLines(Path + path + "\\counter.txt").First();
+            Directory.CreateDirectory(Path + path + "\\" + id);
+            string[] s = { (int.Parse(id) + 1).ToString() };
+            using (FileStream fs = File.Create(Path + path + "\\" + id + "info.txt")) { }
+            using (StreamWriter streamWriter = new StreamWriter(Path + path + "\\" + id + "\\info.txt"))
             {
-                streamWriter.WriteLine(username);
+                streamWriter.WriteLine(name);
                 streamWriter.WriteLine(id);
             }
-            string[] s = { id };
-            File.WriteAllLines(Path + "\\" + type + "\\counter.txt", s);
+            File.WriteAllLines(Path + path + "\\counter.txt", s);
+            return id;
         }
-        public void AddUserInfo(string username, string type, string selfie)
-        {
-            AddUserInfo(username, type);
-            AddFile(selfie, Path +  "\\" + type + "\\" + (int.Parse(File.ReadLines(Path + "\\" + type + "\\counter.txt").First()) - 1));
-        }
+
     }
 }
