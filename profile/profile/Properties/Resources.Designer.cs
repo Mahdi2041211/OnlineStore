@@ -63,6 +63,16 @@ namespace profile.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1725398193986 {
+            get {
+                object obj = ResourceManager.GetObject("1725398193986", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BackGround {
             get {
                 object obj = ResourceManager.GetObject("BackGround", resourceCulture);

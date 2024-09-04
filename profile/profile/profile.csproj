@@ -76,6 +76,12 @@
     <Compile Include="Notifications.Designer.cs">
       <DependentUpon>Notifications.cs</DependentUpon>
     </Compile>
+    <Compile Include="Photo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Photo.Designer.cs">
+      <DependentUpon>Photo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Favorite.resx">
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Notifications.resx">
       <DependentUpon>Notifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Photo.resx">
+      <DependentUpon>Photo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -156,6 +165,7 @@
     <None Include="Resources\LightMode.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\1725398193986.png" />
     <Content Include="Resources\BackGround.png" />
     <Content Include="Resources\BackGround1.png" />
     <Content Include="Resources\DarkMode.png" />

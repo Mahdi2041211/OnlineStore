@@ -11,8 +11,20 @@
       "RelativeMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|solutionrelative:profile\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|c:\\users\\dr.tech\\source\\repos\\profile\\profile\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|solutionrelative:profile\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|c:\\users\\dr.tech\\source\\repos\\profile\\profile\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|solutionrelative:profile\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|solutionrelative:profile\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|solutionrelative:profile\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|solutionrelative:profile\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|solutionrelative:profile\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F386158-83B2-481B-9162-F1354042AAF3}|profile\\profile.csproj|C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -50,7 +58,8 @@
               "RelativeToolTip": "profile\\money.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T18:12:15.077Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -67,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Form3.cs",
               "RelativeDocumentMoniker": "profile\\Form3.cs",
@@ -75,11 +84,12 @@
               "RelativeToolTip": "profile\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T19:47:13.929Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Notifications.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Notifications.cs",
               "RelativeDocumentMoniker": "profile\\Notifications.cs",
@@ -91,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Favorite.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Favorite.cs",
               "RelativeDocumentMoniker": "profile\\Favorite.cs",
@@ -99,7 +109,20 @@
               "RelativeToolTip": "profile\\Favorite.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T14:39:54.546Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Photo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Photo.cs",
+              "RelativeDocumentMoniker": "profile\\Photo.cs",
+              "ToolTip": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Photo.cs [Design]",
+              "RelativeToolTip": "profile\\Photo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:17:51.943Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -109,13 +132,14 @@
               "RelativeDocumentMoniker": "profile\\Form1.cs",
               "ToolTip": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Form1.cs",
               "RelativeToolTip": "profile\\Form1.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAQwKMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAABAAAAAAAAAAAAABsBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T10:52:15.943Z"
+              "WhenOpened": "2024-09-02T10:52:15.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Favorite.cs",
               "DocumentMoniker": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Favorite.cs",
               "RelativeDocumentMoniker": "profile\\Favorite.cs",
@@ -123,7 +147,21 @@
               "RelativeToolTip": "profile\\Favorite.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T15:17:06.548Z"
+              "WhenOpened": "2024-08-31T15:17:06.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Photo.cs",
+              "RelativeDocumentMoniker": "profile\\Photo.cs",
+              "ToolTip": "C:\\Users\\DR.tech\\source\\repos\\profile\\profile\\Photo.cs",
+              "RelativeToolTip": "profile\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T20:50:29.99Z",
+              "EditorCaption": ""
             }
           ]
         }

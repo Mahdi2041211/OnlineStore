@@ -19,10 +19,18 @@ namespace profile
         {
             InitializeComponent();
         }
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            Photo Pic = new Photo();
+            Pic.Show();
+            if (pictureBox1.Image == null)
+            {
+                Pic.BackgroundImage = pictureBox1.BackgroundImage;
+            }
+            else
+            {
+                Pic.BackgroundImage = pictureBox1.Image;
+            }
         }
 
 
@@ -73,25 +81,6 @@ namespace profile
                 DarkMode.Location = new Point(19, 664);
             }
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog open = new OpenFileDialog();
-            open.Filter = "images(*.png;*.jpg;*.jpeg)|*.png||*.jpg";
-            open.Title = "select a file";
-            if (open.ShowDialog() == DialogResult.OK)
-            {
-                string name = open.FileName;
-                images = new Image[]
-                {
-                    Image.FromFile(name),
-
-                };
-                pictureBox1.Image = images[0];
-                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            }
-        }
-
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
         }
@@ -107,6 +96,8 @@ namespace profile
 
         private void Favorite_Click(object sender, EventArgs e)
         {
+            fav favorite = new fav();
+            favorite.Show();
         }
 
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
@@ -209,14 +200,20 @@ namespace profile
 
         private void Notifications_Click(object sender, EventArgs e)
         {
+            notifications note = new notifications();
+            note.Show();
         }
 
         private void Orders_Click(object sender, EventArgs e)
         {
+            orders orders = new orders();
+            orders.Show();
         }
 
         private void Money_Click(object sender, EventArgs e)
         {
+            money money = new money();
+            money.Show();
         }
 
         private void toolStripTextBox1_Enter(object sender, EventArgs e)
@@ -264,10 +261,27 @@ namespace profile
                 }
             }
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
           
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "images(*.png;*.jpg;*.jpeg)|*.png||*.jpg";
+            open.Title = "select a file";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                string name = open.FileName;
+                images = new Image[]
+                {
+                    Image.FromFile(name)
+                };
+                pictureBox1.Image = images[0];
+                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            }
         }
     }
 }

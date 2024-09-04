@@ -43,6 +43,7 @@
             this.settings = new System.Windows.Forms.Label();
             this.DarkMode = new System.Windows.Forms.CheckBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.proves = new System.Windows.Forms.Button();
             this.barcode = new System.Windows.Forms.Button();
             this.Payments = new System.Windows.Forms.Button();
@@ -51,9 +52,9 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -67,7 +68,7 @@
             this.name.BackColor = System.Drawing.Color.Transparent;
             this.name.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 13F);
             this.name.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.name.Location = new System.Drawing.Point(184, 102);
+            this.name.Location = new System.Drawing.Point(182, 102);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(145, 26);
             this.name.TabIndex = 1;
@@ -146,7 +147,7 @@
             this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(537, 26);
+            this.menuStrip1.Size = new System.Drawing.Size(537, 30);
             this.menuStrip1.TabIndex = 20;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -157,13 +158,12 @@
             this.toolStripTextBox1});
             this.settingsToolStripMenuItem.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F);
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(125, 26);
             this.settingsToolStripMenuItem.Text = "change your name";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // toolStripTextBox1
             // 
-            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Overflow = System.Windows.Forms.ToolStripItemOverflow.Always;
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 27);
@@ -174,7 +174,7 @@
             // 
             this.removePictureToolStripMenuItem.Font = new System.Drawing.Font("Tw Cen MT Condensed Extra Bold", 9F);
             this.removePictureToolStripMenuItem.Name = "removePictureToolStripMenuItem";
-            this.removePictureToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
+            this.removePictureToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
             this.removePictureToolStripMenuItem.Text = "remove picture";
             this.removePictureToolStripMenuItem.Click += new System.EventHandler(this.removePictureToolStripMenuItem_Click);
             // 
@@ -217,6 +217,19 @@
             // 
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.White;
+            this.pictureBox6.BackgroundImage = global::profile.Properties.Resources._1725398193986;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox6.Location = new System.Drawing.Point(213, 72);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(30, 30);
+            this.pictureBox6.TabIndex = 29;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // proves
             // 
@@ -310,16 +323,6 @@
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
-            // button2
-            // 
-            this.button2.Image = global::profile.Properties.Resources.icon1;
-            this.button2.Location = new System.Drawing.Point(213, 78);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(30, 30);
-            this.button2.TabIndex = 12;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::profile.Properties.Resources.default_photo1;
@@ -340,6 +343,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(537, 761);
+            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.DarkMode);
             this.Controls.Add(this.settings);
             this.Controls.Add(this.proves);
@@ -355,7 +359,6 @@
             this.Controls.Add(this.Money);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Orders);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.language);
             this.Controls.Add(this.name);
             this.Controls.Add(this.pictureBox1);
@@ -368,6 +371,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -383,7 +387,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.CheckBox language;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button Orders;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button Money;
@@ -404,6 +407,7 @@
         private System.Windows.Forms.CheckBox DarkMode;
         private System.Windows.Forms.ToolStripMenuItem removePictureToolStripMenuItem;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
 
