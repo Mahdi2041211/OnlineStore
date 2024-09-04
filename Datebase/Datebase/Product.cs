@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    internal class Product : Database
+    public class Product : Database
     {
         /// <summary>
         /// مسارات الصور اللي لهاد المنتج.

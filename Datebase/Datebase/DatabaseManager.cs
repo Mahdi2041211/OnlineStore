@@ -4,34 +4,40 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Database
 {
     /// <summary>
     /// all methods that you will need to manage our seak database is here, creat a database is a static method and all the other methods are working with an instans of thes class.
     /// </summary>
-    internal class DatabaseManager
+    public class DatabaseManager
     {
         /// <summary>
         /// the database you are managing.
         /// </summary>
         /// 
-        string Path;
-        
+        public string Path { set; get; }
+        public DatabaseManager(string path) {  Path = path; }
         static void Creatdirs(string path, string name)
         {
             string Database = path + "\\" + name;
-            string[] dirs = { "", "\\Costomers", "\\Seller", "\\Products", "\\Comments" };
+            string[] dirs = { "", "\\Costomers", "\\Sellers", "\\Blocks" };
             for (int i = 0; i < dirs.Length; i++)
             {
-                Directory.CreateDirectory(Database + dirs[i] + Console.ReadLine());
-                if (i > 0)
+                Directory.CreateDirectory(Database + dirs[i]);
+                switch (dirs[i])
                 {
-                    using (FileStream fs = File.Create(Database + dirs[i] + @"\counter.txt"))
-                    {
-                        using (StreamWriter streamWriter = new StreamWriter(Database + dirs[i] + @"\counter.txt"))
-                        { streamWriter.WriteLine("0"); }
-                    }
+                    case "\\Costomers":
+                    case "\\Sellers":
+                        File.Create(Database + dirs[i] + "\\Users.txt"); break;
+                    case "\\Blocks":
+                        File.Create(Database + dirs[i] + "\\counter.txt");
+                        using (StreamWriter st = new StreamWriter(Database + dirs[i] + "\\counter.txt"))
+                        {
+                            st.WriteLine("0");
+                        }
+                        break;
                 }
             }
         }

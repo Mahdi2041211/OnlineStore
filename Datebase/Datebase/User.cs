@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    internal abstract class User : Database
+    public abstract class User : Database
     {
         /// <summary>
         /// مسار الصورة الشخصية للمستخدم

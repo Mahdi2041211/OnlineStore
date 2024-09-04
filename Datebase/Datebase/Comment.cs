@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    internal class Comment
+    public class Comment
     {
         /// <summary>
         /// المنتج يلي هاد التعليق موجود عليه

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    internal class Seller : User
+    public class Seller : User
     {
         /// <summary>
         /// المنتجات يلي عند هاد البياع

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Database
 {
-    internal class Costomer : User
+    public class Costomer : User
     {
         /// <summary>
         /// التعليقات يلي علقها هاد المستخدم
