@@ -1,0 +1,9 @@
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.exe.config
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.exe
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.pdb
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csprojResolveAssemblyReference.cache
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales_market_applicatinon_v2.Form1.resources
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales_market_applicatinon_v2.Properties.Resources.resources
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.exe
+c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.pdb
