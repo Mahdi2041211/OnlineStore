@@ -7,3 +7,13 @@ c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\S
 c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.GenerateResource.Cache
 c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.exe
 c:\users\hp\documents\visual studio 2012\Projects\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.pdb
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.exe.config
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.exe
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.pdb
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.AssemblyReference.cache
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales_market_applicatinon_v2.Form1.resources
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales_market_applicatinon_v2.Properties.Resources.resources
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.GenerateResource.cache
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.CoreCompileInputs.cache
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.exe
+C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.pdb
