@@ -31,32 +31,24 @@ namespace show_screen
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
+            
             Point Current = panel1.AutoScrollPosition;
+            
             Current.X = -Current.X;
-            if (Current.X <= panel1.HorizontalScroll.Maximum)
-            {
-                Current.X += 20;
-                panel1.AutoScrollPosition = Current;
-                if (Current.X == 329)
+                if (Current.X <= panel1.HorizontalScroll.Maximum)
                 {
-                    Current.X = panel1.HorizontalScroll.Maximum;
+                    Current.X += 650;
+                    panel1.AutoScrollPosition = Current;
                 }
-            }
-            if (Current.X == panel1.HorizontalScroll.Maximum)
+            if (Current.X == 3228)
             {
-                Current.X = 0;
-                panel1.AutoScrollPosition = Current;
                 timer1.Stop();
+                timer2.Start();
             }
         }
         private void panel1_Resize(object sender, EventArgs e)
         {
             panel1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-            
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -71,7 +63,7 @@ namespace show_screen
 
         private void books_MouseLeave(object sender, EventArgs e)
         {
-            books.Size = new Size(140, 120);
+            books.Size = new Size(140, 140);
         }
 
         private void clothes_MouseMove(object sender, MouseEventArgs e)
@@ -82,18 +74,63 @@ namespace show_screen
 
         private void clothes_MouseLeave(object sender, EventArgs e)
         {
-            clothes.Size = new Size(140, 120);
+            clothes.Size = new Size(140, 140);
         }
 
         private void laptops_MouseLeave(object sender, EventArgs e)
         {
-            laptops.Size = new Size(140, 120);
+            laptops.Size = new Size(140, 140);
         }
 
         private void laptops_MouseMove(object sender, MouseEventArgs e)
         {
             laptops.Size = new Size(200, 200);
             laptops.BringToFront();
+        }
+
+        private void mobiles_MouseMove(object sender, MouseEventArgs e)
+        {
+            mobiles.Location = new Point(140, 260);
+            mobiles.Size = new Size(450, 340);
+            mobiles.BringToFront();
+        }
+
+        private void mobiles_MouseLeave(object sender, EventArgs e)
+        {
+            mobiles.Location = new Point(160,340);
+            mobiles.Size = new Size(370, 320);
+        }
+
+        private void elctronic_MouseMove(object sender, MouseEventArgs e)
+        {
+            elctronic.Size = new Size(200, 200);
+            elctronic.BringToFront();
+        }
+
+        private void elctronic_MouseLeave(object sender, EventArgs e)
+        {
+            elctronic.Size = new Size(140, 140);
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            Point Current = panel1.AutoScrollPosition;
+            Current.X = -Current.X;
+            if (Current.X >= panel1.HorizontalScroll.Minimum)
+            {
+                Current.X -= 640;
+                panel1.AutoScrollPosition = Current;
+            }
+            if (Current.X == -640)
+            {
+                timer2.Stop();
+                timer1.Start();
+            }
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

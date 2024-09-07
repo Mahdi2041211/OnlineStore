@@ -118,28 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="قرطاسية" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\قرطاسية.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lens" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="البسة1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\البسة1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mobiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mobiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="لابتوبات" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\لابتوبات.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ادوات" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ادوات.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="elctronic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elctronic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="هواتف" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\هواتف.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="البسة" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\البسة.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="لابتوبات1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\لابتوبات.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="البسة1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\البسة1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="قرطاسية" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\قرطاسية.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clothes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clothes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="لابتوبات2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\لابتوبات1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="laptops" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\laptops.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1725654362921" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1725654362921.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="لابتوبات1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\لابتوبات.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="قرطاسية1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\قرطاسية.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="البسة2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\البسة.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

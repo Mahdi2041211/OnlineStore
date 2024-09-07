@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|c:\\users\\dr.tech\\desktop\\onlinestore\\sales market applicatinon v2\\sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|c:\\users\\dr.tech\\desktop\\onlinestore\\sales market applicatinon v2\\sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|c:\\users\\dr.tech\\desktop\\onlinestore\\sales market applicatinon v2\\sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Sales market applicatinon v2\\Form1.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAlwCIAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T18:00:05.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T18:00:05.488Z"
             }
           ]
         }

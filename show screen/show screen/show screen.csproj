@@ -104,5 +104,35 @@
   <ItemGroup>
     <None Include="Resources\لابتوبات.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laptops.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elctronic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ادوات.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\لابتوبات1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\قرطاسية.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\هواتف.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\البسة.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,3 +8,13 @@ C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.cspr
 C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.csproj.CoreCompileInputs.cache
 C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.exe
 C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.pdb
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\bin\Debug\show screen.exe.config
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\bin\Debug\show screen.exe
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\bin\Debug\show screen.pdb
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.csproj.AssemblyReference.cache
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show_screen.Form1.resources
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show_screen.Properties.Resources.resources
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.csproj.GenerateResource.cache
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.csproj.CoreCompileInputs.cache
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.exe
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.pdb

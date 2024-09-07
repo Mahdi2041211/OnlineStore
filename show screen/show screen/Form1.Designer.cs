@@ -32,30 +32,31 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.clothes = new System.Windows.Forms.PictureBox();
+            this.mobiles = new System.Windows.Forms.PictureBox();
+            this.elctronic = new System.Windows.Forms.PictureBox();
+            this.laptops = new System.Windows.Forms.PictureBox();
+            this.books = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.clothes = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.laptops = new System.Windows.Forms.PictureBox();
-            this.books = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.clothes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mobiles)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elctronic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laptops)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.books)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clothes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.laptops)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.books)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,64 +89,14 @@
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Location = new System.Drawing.Point(13, 91);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(775, 187);
+            this.panel1.Size = new System.Drawing.Size(759, 347);
             this.panel1.TabIndex = 4;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.Resize += new System.EventHandler(this.panel1_Resize);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.BlueViolet;
-            this.pictureBox6.Location = new System.Drawing.Point(833, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(282, 187);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox7.Location = new System.Drawing.Point(555, 0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(282, 187);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 4;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.pictureBox5.Location = new System.Drawing.Point(277, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(282, 187);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 3;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pictureBox3.Location = new System.Drawing.Point(-1, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(282, 187);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox4.Location = new System.Drawing.Point(-730, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(730, 184);
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
-            this.timer1.Interval = 500;
+            this.timer1.Interval = 300;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // textBox1
@@ -157,13 +108,18 @@
             this.textBox1.Size = new System.Drawing.Size(227, 24);
             this.textBox1.TabIndex = 5;
             // 
+            // timer2
+            // 
+            this.timer2.Interval = 300;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // clothes
             // 
             this.clothes.BackColor = System.Drawing.Color.Transparent;
-            this.clothes.BackgroundImage = global::show_screen.Properties.Resources.البسة1;
+            this.clothes.BackgroundImage = global::show_screen.Properties.Resources.clothes;
             this.clothes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.clothes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.clothes.Location = new System.Drawing.Point(13, 447);
+            this.clothes.Location = new System.Drawing.Point(23, 607);
             this.clothes.Name = "clothes";
             this.clothes.Size = new System.Drawing.Size(159, 156);
             this.clothes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -172,30 +128,38 @@
             this.clothes.MouseLeave += new System.EventHandler(this.clothes_MouseLeave);
             this.clothes.MouseMove += new System.Windows.Forms.MouseEventHandler(this.clothes_MouseMove);
             // 
-            // pictureBox11
+            // mobiles
             // 
-            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox11.Location = new System.Drawing.Point(178, 284);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(429, 319);
-            this.pictureBox11.TabIndex = 10;
-            this.pictureBox11.TabStop = false;
+            this.mobiles.BackColor = System.Drawing.Color.Transparent;
+            this.mobiles.BackgroundImage = global::show_screen.Properties.Resources.mobiles;
+            this.mobiles.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.mobiles.Location = new System.Drawing.Point(189, 444);
+            this.mobiles.Name = "mobiles";
+            this.mobiles.Size = new System.Drawing.Size(429, 319);
+            this.mobiles.TabIndex = 10;
+            this.mobiles.TabStop = false;
+            this.mobiles.MouseLeave += new System.EventHandler(this.mobiles_MouseLeave);
+            this.mobiles.MouseMove += new System.Windows.Forms.MouseEventHandler(this.mobiles_MouseMove);
             // 
-            // pictureBox9
+            // elctronic
             // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Location = new System.Drawing.Point(613, 447);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(159, 156);
-            this.pictureBox9.TabIndex = 9;
-            this.pictureBox9.TabStop = false;
+            this.elctronic.BackColor = System.Drawing.Color.Transparent;
+            this.elctronic.BackgroundImage = global::show_screen.Properties.Resources.elctronic;
+            this.elctronic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.elctronic.Location = new System.Drawing.Point(624, 607);
+            this.elctronic.Name = "elctronic";
+            this.elctronic.Size = new System.Drawing.Size(159, 156);
+            this.elctronic.TabIndex = 9;
+            this.elctronic.TabStop = false;
+            this.elctronic.MouseLeave += new System.EventHandler(this.elctronic_MouseLeave);
+            this.elctronic.MouseMove += new System.Windows.Forms.MouseEventHandler(this.elctronic_MouseMove);
             // 
             // laptops
             // 
-            this.laptops.BackgroundImage = global::show_screen.Properties.Resources.لابتوبات;
-            this.laptops.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.laptops.BackgroundImage = global::show_screen.Properties.Resources.laptops;
+            this.laptops.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.laptops.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.laptops.Location = new System.Drawing.Point(613, 285);
+            this.laptops.Location = new System.Drawing.Point(623, 445);
             this.laptops.Name = "laptops";
             this.laptops.Size = new System.Drawing.Size(159, 156);
             this.laptops.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -207,10 +171,10 @@
             // books
             // 
             this.books.BackColor = System.Drawing.Color.Transparent;
-            this.books.BackgroundImage = global::show_screen.Properties.Resources.قرطاسية;
+            this.books.BackgroundImage = global::show_screen.Properties.Resources.pens;
             this.books.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.books.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.books.Location = new System.Drawing.Point(13, 285);
+            this.books.Location = new System.Drawing.Point(23, 445);
             this.books.Name = "books";
             this.books.Size = new System.Drawing.Size(159, 156);
             this.books.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -218,6 +182,65 @@
             this.books.TabStop = false;
             this.books.MouseLeave += new System.EventHandler(this.books_MouseLeave);
             this.books.MouseMove += new System.Windows.Forms.MouseEventHandler(this.books_MouseMove);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.BackgroundImage = global::show_screen.Properties.Resources.لابتوبات2;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(754, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(760, 323);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImage = global::show_screen.Properties.Resources.قرطاسية1;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.Location = new System.Drawing.Point(1511, 0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(760, 323);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImage = global::show_screen.Properties.Resources.هواتف;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(2263, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(760, 323);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::show_screen.Properties.Resources.ادوات;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(760, 323);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::show_screen.Properties.Resources.البسة2;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Location = new System.Drawing.Point(3008, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(760, 323);
+            this.pictureBox4.TabIndex = 1;
+            this.pictureBox4.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -235,10 +258,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 641);
+            this.ClientSize = new System.Drawing.Size(793, 856);
             this.Controls.Add(this.clothes);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.mobiles);
+            this.Controls.Add(this.elctronic);
             this.Controls.Add(this.laptops);
             this.Controls.Add(this.books);
             this.Controls.Add(this.textBox1);
@@ -246,20 +269,21 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.clothes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mobiles)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.elctronic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.laptops)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.books)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.clothes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.laptops)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.books)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -280,10 +304,11 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox books;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox elctronic;
         private System.Windows.Forms.PictureBox laptops;
-        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox mobiles;
         private System.Windows.Forms.PictureBox clothes;
+        private System.Windows.Forms.Timer timer2;
     }
 }
 
