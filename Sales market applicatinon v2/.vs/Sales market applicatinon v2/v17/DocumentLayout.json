@@ -1,12 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hp\\Documents\\Visual Studio 2012\\Projects\\Sales market applicatinon v2\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|c:\\users\\dr.tech\\desktop\\onlinestore\\sales market applicatinon v2\\sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|c:\\users\\dr.tech\\desktop\\onlinestore\\sales market applicatinon v2\\sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3614A4F3-86DC-437A-856D-5F8610F70AC2}|Sales market applicatinon v2\\Sales market applicatinon v2.csproj|solutionrelative:sales market applicatinon v2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form2.cs",
+              "RelativeDocumentMoniker": "Sales market applicatinon v2\\Form2.cs",
+              "ToolTip": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form2.cs",
+              "RelativeToolTip": "Sales market applicatinon v2\\Form2.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCoAAACSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T19:12:34.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form2.cs",
+              "RelativeDocumentMoniker": "Sales market applicatinon v2\\Form2.cs",
+              "ToolTip": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form2.cs [Design]",
+              "RelativeToolTip": "Sales market applicatinon v2\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:00:22.263Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form1.cs",
+              "RelativeDocumentMoniker": "Sales market applicatinon v2\\Form1.cs",
+              "ToolTip": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form1.cs [Design]",
+              "RelativeToolTip": "Sales market applicatinon v2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T17:56:32.001Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form1.cs",
+              "RelativeDocumentMoniker": "Sales market applicatinon v2\\Form1.cs",
+              "ToolTip": "C:\\Users\\DR.tech\\Desktop\\OnlineStore\\Sales market applicatinon v2\\Sales market applicatinon v2\\Form1.cs",
+              "RelativeToolTip": "Sales market applicatinon v2\\Form1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAlwCIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T18:00:05.488Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

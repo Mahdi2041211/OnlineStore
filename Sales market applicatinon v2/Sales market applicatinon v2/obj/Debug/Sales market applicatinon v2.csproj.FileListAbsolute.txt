@@ -17,3 +17,14 @@ C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applic
 C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.CoreCompileInputs.cache
 C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.exe
 C:\Computer\project\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.pdb
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.exe.config
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.exe
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\bin\Debug\Sales market applicatinon v2.pdb
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.AssemblyReference.cache
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales_market_applicatinon_v2.Form1.resources
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales_market_applicatinon_v2.Properties.Resources.resources
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.GenerateResource.cache
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.csproj.CoreCompileInputs.cache
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.exe
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales market applicatinon v2.pdb
+C:\Users\DR.tech\Desktop\OnlineStore\Sales market applicatinon v2\Sales market applicatinon v2\obj\Debug\Sales_market_applicatinon_v2.Form2.resources
