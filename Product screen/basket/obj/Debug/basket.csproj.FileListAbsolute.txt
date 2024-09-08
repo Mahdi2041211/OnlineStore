@@ -1,0 +1,10 @@
+C:\Users\DR.tech\source\repos\basket\basket\bin\Debug\basket.exe.config
+C:\Users\DR.tech\source\repos\basket\basket\bin\Debug\basket.exe
+C:\Users\DR.tech\source\repos\basket\basket\bin\Debug\basket.pdb
+C:\Users\DR.tech\source\repos\basket\basket\obj\Debug\basket.csproj.AssemblyReference.cache
+C:\Users\DR.tech\source\repos\basket\basket\obj\Debug\basket.Product.resources
+C:\Users\DR.tech\source\repos\basket\basket\obj\Debug\basket.Properties.Resources.resources
+C:\Users\DR.tech\source\repos\basket\basket\obj\Debug\basket.csproj.GenerateResource.cache
+C:\Users\DR.tech\source\repos\basket\basket\obj\Debug\basket.csproj.CoreCompileInputs.cache
+C:\Users\DR.tech\source\repos\basket\basket\obj\Debug\basket.exe
+C:\Users\DR.tech\source\repos\basket\basket\obj\Debug\basket.pdb
