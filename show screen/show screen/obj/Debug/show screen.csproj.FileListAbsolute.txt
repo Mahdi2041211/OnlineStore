@@ -1,0 +1,41 @@
+C:\Users\DR.tech\source\repos\show screen\show screen\bin\Debug\show screen.exe.config
+C:\Users\DR.tech\source\repos\show screen\show screen\bin\Debug\show screen.exe
+C:\Users\DR.tech\source\repos\show screen\show screen\bin\Debug\show screen.pdb
+C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.csproj.AssemblyReference.cache
+C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show_screen.Form1.resources
+C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show_screen.Properties.Resources.resources
+C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.csproj.GenerateResource.cache
+C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.csproj.CoreCompileInputs.cache
+C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.exe
+C:\Users\DR.tech\source\repos\show screen\show screen\obj\Debug\show screen.pdb
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\bin\Debug\show screen.exe.config
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\bin\Debug\show screen.exe
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\bin\Debug\show screen.pdb
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.csproj.AssemblyReference.cache
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show_screen.Form1.resources
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show_screen.Properties.Resources.resources
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.csproj.GenerateResource.cache
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.csproj.CoreCompileInputs.cache
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.exe
+C:\Users\DR.tech\Desktop\OnlineStore\show screen\show screen\obj\Debug\show screen.pdb
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\bin\Debug\show screen.exe.config
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\obj\Debug\show screen.exe
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\obj\Debug\show screen.pdb
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\bin\Debug\show screen.exe
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\bin\Debug\show screen.pdb
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\obj\Debug\show screen.csprojResolveAssemblyReference.cache
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\obj\Debug\show_screen.Form1.resources
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\obj\Debug\show_screen.Properties.Resources.resources
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\obj\Debug\show screen.csproj.GenerateResource.Cache
+C:\Users\hp\Desktop\fouad\project\OnlineStore\show screen\show screen\obj\Debug\show_screen.Form2.resources
+C:\Users\DR.tech\Desktop\show screen\show screen\bin\Debug\show screen.exe.config
+C:\Users\DR.tech\Desktop\show screen\show screen\bin\Debug\show screen.exe
+C:\Users\DR.tech\Desktop\show screen\show screen\bin\Debug\show screen.pdb
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show screen.csproj.AssemblyReference.cache
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show_screen.Form1.resources
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show_screen.Form2.resources
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show_screen.Properties.Resources.resources
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show screen.csproj.GenerateResource.cache
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show screen.csproj.CoreCompileInputs.cache
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show screen.exe
+C:\Users\DR.tech\Desktop\show screen\show screen\obj\Debug\show screen.pdb
