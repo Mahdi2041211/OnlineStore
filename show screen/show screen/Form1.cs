@@ -63,7 +63,7 @@ namespace show_screen
 
         private void books_MouseLeave(object sender, EventArgs e)
         {
-            books.Size = new Size(140, 140);
+            books.Size = new Size(130, 126);
         }
 
         private void clothes_MouseMove(object sender, MouseEventArgs e)
@@ -74,12 +74,12 @@ namespace show_screen
 
         private void clothes_MouseLeave(object sender, EventArgs e)
         {
-            clothes.Size = new Size(140, 140);
+            clothes.Size = new Size(130, 126);
         }
 
         private void laptops_MouseLeave(object sender, EventArgs e)
         {
-            laptops.Size = new Size(140, 140);
+            laptops.Size = new Size(130, 126);
         }
 
         private void laptops_MouseMove(object sender, MouseEventArgs e)
@@ -91,13 +91,13 @@ namespace show_screen
         private void mobiles_MouseMove(object sender, MouseEventArgs e)
         {
             mobiles.Location = new Point(140, 260);
-            mobiles.Size = new Size(450, 340);
+            mobiles.Size = new Size(450, 320);
             mobiles.BringToFront();
         }
 
         private void mobiles_MouseLeave(object sender, EventArgs e)
         {
-            mobiles.Location = new Point(160,340);
+            mobiles.Location = new Point(145,315);
             mobiles.Size = new Size(370, 320);
         }
 
@@ -109,7 +109,7 @@ namespace show_screen
 
         private void elctronic_MouseLeave(object sender, EventArgs e)
         {
-            elctronic.Size = new Size(140, 140);
+            elctronic.Size = new Size(130, 126);
         }
 
         private void timer2_Tick(object sender, EventArgs e)
