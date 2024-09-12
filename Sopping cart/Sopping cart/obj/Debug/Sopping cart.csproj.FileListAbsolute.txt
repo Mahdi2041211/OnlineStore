@@ -1,0 +1,9 @@
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\bin\Debug\Sopping cart.exe.config
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\bin\Debug\Sopping cart.exe
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\bin\Debug\Sopping cart.pdb
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\obj\Debug\Sopping_cart.Form1.resources
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\obj\Debug\Sopping_cart.Properties.Resources.resources
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\obj\Debug\Sopping cart.csproj.GenerateResource.Cache
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\obj\Debug\Sopping cart.exe
+c:\users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\obj\Debug\Sopping cart.pdb
+C:\Users\hp\documents\visual studio 2012\Projects\Sopping cart\Sopping cart\obj\Debug\Sopping cart.csprojResolveAssemblyReference.cache
